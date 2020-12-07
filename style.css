@@ -10,14 +10,15 @@ body {
     display: flex;
     justify-content: center;
     align-items: center;
-    background: rgb(55, 55, 55);
+    background: rgb(196, 158, 115);
 }
 
 .button-container {
-    border: 2px solid black;
+    border: 2px solid rgb(221, 168, 168);
     padding: 10px;
     border-radius: 7px;
     box-shadow: inset 0 20px 4px -19px rgba(255, 255, 255, 0.7);
+    background:  rgb(231, 137, 137);
 }
 
 button {
@@ -29,14 +30,14 @@ button {
     font-size: 25px;
     color: white;
     text-shadow: 0 2px 5px black;
-    background: linear-gradient(to top, #696969, #575757);
+    background: linear-gradient(to top, #e2a2a2, #df5757);
     border: 2px solid black;
     border-radius: 7px;
     box-shadow: inset 0 20px 4px -19px rgba(255, 255, 255, 0.4), 0 12px 12px 0px rgba(0, 0, 0, 0.3);
 }
 
 button:hover {
-    background: linear-gradient(to bottom, #696969, #575757);
+    background: linear-gradient(to bottom, #e2a2a2, #df5757);
 }
 
 button:active {
